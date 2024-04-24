@@ -1,0 +1,24 @@
+
+💡 **Encuadre semanal**
+
+Hasta ahora hemos estudiado sobre las diversas maneras de pruebas de software y hemos aprendido como aplicarlas al desarrollo y diseño de software.
+
+Esta semana se realizará el Trabajo Práctico 1 que será calificada por el/la docente. Estaremos realizando **diseño de pruebas de caja negra y de caja blanca**, trabajando sobre dos historias de usuario diferentes.
+
+📅 **[Espacio de Entrega](https://aulasvirtuales.bue.edu.ar/mod/assign/view.php?id=515890)**
+
+- **Consignas TP 1:** Entregar todo en formato PDF
+    
+    En este trabajo, se te solicita desarrollar **pruebas de caja negra para un algoritmo específico**. Deberás usar el software PSeInt para crear un pseudocódigo del algoritmo objetivo y luego aplicar pruebas de caja negra para validar su funcionamiento (clases de equivalencia y casos de prueba).
+    
+    **El algoritmo** debe pedir datos de logueo. Podés hacerlo del tema que quieras. Si los datos (user y password) son correctos, debe dar la bienvenida al usuario y trabajar con un menú de opciones que tenga 2 tareas: visualizar listas de datos, o salir del programa. Si el usuario elige visualizar listas de datos, debe haber 3 arreglos (arrays) previamente hechos, con datos del tema que hayan seleccionado. Por ejemplo, si es sobre categoría de películas, los arreglos podrían ser uno de películas de terror, otro de drama y otro de comedia. Si el usuario selecciona terror, le debe aparecer únicamente todas las películas de ese arreglo. El programa debe siempre volver al menú inicial, para poder visualizar nuevamente algún arreglo o finalizar el programa.
+    
+    Por último, si el user o password fueran incorrectos (deberían estar previamente guardados los correctos, como si los fuera a sacar de una base de datos) debe mostrar un mensaje de error, y restarle un intento de logueo (en total va a tener 3). Si se equivoca 3 veces, sale del programa y se informa que por el momento no se pudo loguear.
+
+
+Instalaciones:
+readline-sync: npm i readline-sync
+
+
+Correr el codigo:
+tsc algoritmoLogin.ts && node algoritmoLogin.js
